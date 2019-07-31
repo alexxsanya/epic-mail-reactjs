@@ -1,0 +1,12 @@
+@import './common/CSS/assets/variables';
+@import './common/CSS/assets/fonts';
+
+body {
+  background-attachment: fixed;
+  background-color: $bg-color;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
