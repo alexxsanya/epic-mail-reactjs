@@ -22,12 +22,12 @@ These are the steps on how to get the application running on your machine
 
 - Clone the project repo
 ```
-$ git clone https://github.com/alexxsanya/EPIC-MAIL-API.git
+$ git clone https://github.com/alexxsanya/EPIC-MAIL-REACTJS.git
 ```
 
-- Install a virtual environment via pip
+- Install app dependencies
 ``` 
-$ npm install to install app dependencies
+$ npm install 
 ```
 
 ### Run the app locally
