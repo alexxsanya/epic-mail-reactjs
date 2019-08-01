@@ -1,0 +1,43 @@
+@import '../../common/CSS/assets/variables';
+@import '../../common/CSS/assets/fonts';
+
+.inbox-messages {
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.90em;
+    min-width: 900px;
+  }
+
+  tr {
+    background: $white;
+    border-bottom: 1px solid #eae2e2;
+    color: #555;
+  }
+
+  tr:hover{
+    background: $primary-blue;
+    color: $white;
+    cursor: pointer;
+  }
+
+  td, th {
+    text-align: left;
+    padding: 8px;
+  }
+
+  td.td-action{
+    color:#bbbbbb;
+  }
+
+  td.td-action:hover{
+    color:#f91212;
+  }
+
+  td.td-action.positive:hover{
+    color:#fff;
+  }
+
+}

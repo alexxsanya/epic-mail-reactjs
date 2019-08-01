@@ -25,6 +25,13 @@ class Signup extends React.Component {
     }
   }
 
+  componentWillMount() {
+    const token = localStorage.getItem('user_token');
+    if(token !== null ) {
+      window.location = '/dashboard/inbox'
+    }
+  }
+
   handleChange = event => {
     const {name, value} = event.target;
     this.setState({
@@ -58,7 +65,7 @@ class Signup extends React.Component {
       localStorage.setItem("user_token", userInfo.data[0].token);
       localStorage.setItem("username", firstname);
       setTimeout(() => {
-        window.location = `/dashboard`;
+        window.location = `/dashboard/inbox`;
       },
       300000);
     }

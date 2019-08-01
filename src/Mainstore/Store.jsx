@@ -3,10 +3,12 @@ import {
 } from 'redux';
 import thunk from 'redux-thunk';
 import { AuthReducers } from '../Auth';
+import DashboardReducers from '../Dashboard/Redux/reducers';
 
 const reducers = combineReducers({
   loginReducer: AuthReducers.login,
   signupReducer: AuthReducers.signup,
+  inboxReducer: DashboardReducers.inboxReducer,
 });
 
 const enhancers = compose(
