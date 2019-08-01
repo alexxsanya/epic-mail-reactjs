@@ -40,12 +40,12 @@ $ npm start
 
 ## Implemented Features
 
-| #   | API                    | ACTION                    |
+| #   | Route                  | ACTION                    |
 | --- | ---------------------- | ------------------------- |
 | 1   | /signup                | Create User Account       |
 | 2   | /login                 | Login user                |
-| 3   | /messages              | View all inbox a Message  |
-| 4   | /messages/sent         | Get all sent messages     |
+| 3   | /dashboard/inbox       | View all inbox a Message  |
+| 4   | /dashboard/sent        | Get all sent messages     |
 
 ## Deployment
 
