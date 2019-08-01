@@ -10,7 +10,7 @@ EPICMAIL is an online system which enables you to exchange messages/information 
 
 You will need the following software running on your machine to get started
 
-* Reactjs - ( [download python](https://www.python.org/getit/) )
+* Reactjs - ( [learn about reactjs](https://reactjs.org) )
 * node ([download node](https://nodejs.org/))
 * npm ([when you install node, npm is also installed pip](https://docs.npmjs.com/cli/install))
 
