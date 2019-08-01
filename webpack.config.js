@@ -1,16 +1,17 @@
 const HtmlWebPackPlugin = require('html-webpack-plugin');
-var path = require('path');
+const path = require('path');
+
 module.exports = {
   entry: './src/index.jsx',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
-    publicPath: '/'
+    publicPath: '/',
   },
   resolve: {
     enforceExtension: false,
     descriptionFiles: ['package.json'],
-    extensions: ['.js', '.jsx', '.json', '.tsx', '.ts','.scss','.css','sass'],
+    extensions: ['.js', '.jsx', '.json', '.tsx', '.ts', '.scss', '.css', 'sass'],
   },
   module: {
     rules: [{

@@ -1,0 +1,10 @@
+export const types = {
+  LOGIN_STARTED: 'LOGIN_STARTED',
+  LOGIN_FAILED: 'LOGIN_FAILED',
+  LOGIN_SUCCESS: 'LOGIN_SUCCESS',
+  SIGNUP_STARTED: 'SIGNUP_STARTED',
+  SIGNUP_FAILED: 'SIGNUP_FAILED',
+  SIGNUP_SUCCESS: 'SIGNUP_SUCCESS',
+};
+
+export const API_URL = 'https://api-epicmail-v2.herokuapp.com/api/v1/';
