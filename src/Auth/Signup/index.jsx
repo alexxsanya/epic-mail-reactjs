@@ -67,7 +67,7 @@ class Signup extends React.Component {
       setTimeout(() => {
         window.location = `/dashboard/inbox`;
       },
-      300000);
+      2000);
     }
 
     return (

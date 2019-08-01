@@ -9,6 +9,7 @@ const reducers = combineReducers({
   loginReducer: AuthReducers.login,
   signupReducer: AuthReducers.signup,
   inboxReducer: DashboardReducers.inboxReducer,
+  outboxReducer: DashboardReducers.outboxReducer,
 });
 
 const enhancers = compose(

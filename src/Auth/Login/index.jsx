@@ -17,7 +17,6 @@ class Login extends React.Component {
     this.state = {
       email: '',
       password: '',
-      isSubmitted: true,
     }
   }
 
@@ -38,7 +37,7 @@ class Login extends React.Component {
   handleSubmit = (event) => {
     event.preventDefault();
     this.setState({
-      isSubmitted: false
+      disabled: true
     })
     const { email, password} = this.state
     const userData = {
@@ -50,7 +49,7 @@ class Login extends React.Component {
   }
 
   render() {
-    const { password, email } = this.state;
+    const { password, email, disabled } = this.state;
     const { isLoggingIn, errorOccured, isLoggedIn, response,userInfo } = this.props
 
     if (userInfo.status === 200) {
@@ -58,7 +57,7 @@ class Login extends React.Component {
       setTimeout(() => {
         window.location = `/dashboard/inbox`;
       },
-      3000);
+      2000);
     }
 
     return (
@@ -118,7 +117,7 @@ class Login extends React.Component {
           <Row>
             <Col sm={12} className="call-for-action">
               <Loader loaded={!isLoggingIn} color="#3379f5">
-                <Button type="submit" id="submitForm">
+                <Button type="submit" id="submitForm" disabled={isLoggedIn}>
                     Login
                 </Button>
               </Loader>
