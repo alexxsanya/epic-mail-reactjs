@@ -1,0 +1,31 @@
+
+@import '../../common/CSS/assets/variables';
+@import '../../common/CSS/assets/fonts';
+
+.dashboard {
+  margin-top: 20px;
+  min-width: 90%;
+
+  .side-section {
+    width: 10%;
+  }
+
+  .content-section {
+    background: inherit;
+  }
+
+  .section-title {
+    border-bottom: 1px solid $white;
+    color: $primary-blue;
+    font-family: $lato-font;
+    font-size: 24px;
+    font-weight: 100;
+    margin: 0 0 10px 0;
+    text-align: left;
+    width: 100%;
+  }
+
+  .list-group-item{
+    border-radius: 0 !important;
+  }
+}

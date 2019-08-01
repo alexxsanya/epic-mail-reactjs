@@ -5,6 +5,7 @@ import store from './Mainstore/Store';
 import { Auth } from './Auth';
 import './App.scss';
 import Header from './common/components/Header';
+import Dashboard from './Dashboard';
 
 const App = () => (
   <Provider store={store}>
@@ -12,6 +13,7 @@ const App = () => (
       <Header />
       <Switch>
         <Route path="/" exact component={Auth.login} />
+        <Route path="/dashboard/:item" exact component={Dashboard} />
         <Route path="/login" component={Auth.login} />
         <Route path="/signup" component={Auth.signup} />
       </Switch>

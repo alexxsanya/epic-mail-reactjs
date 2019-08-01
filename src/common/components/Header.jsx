@@ -16,7 +16,7 @@ export default function NavSection() {
   return (
     <header>
       <Navbar className="nav-section">
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/dashboard/inbox">
           EPIC MAIL
         </Navbar.Brand>
         <Navbar.Toggle />
@@ -37,7 +37,7 @@ export default function NavSection() {
                     >
                       <Dropdown.Item className="profile-name" eventKey="1">{username}</Dropdown.Item>
                       <Dropdown.Item eventKey="2" href="/profile">Profile</Dropdown.Item>
-                      <Dropdown.Item eventKey="2" href="/profile">Dasboard</Dropdown.Item>
+                      <Dropdown.Item eventKey="2" href="/dashboard/inbox">Dasboard</Dropdown.Item>
                       <Dropdown.Divider />
                       <Dropdown.Item
                         eventKey="4"
