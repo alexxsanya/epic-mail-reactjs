@@ -10,6 +10,16 @@
     width: 10%;
   }
 
+  .nav-link {
+    background: $white;
+    border-bottom: 1px solid #dfdfdf;
+
+    &:hover {
+      background: $dark;
+      color: #555;
+    }
+  }
+
   .content-section {
     background: inherit;
   }

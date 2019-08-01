@@ -1,7 +1,8 @@
 @import '../../common/CSS/assets/variables';
 @import '../../common/CSS/assets/fonts';
 
-.inbox-messages {
+.inbox-messages,
+.outbox-messages {
 
   table {
     font-family: arial, sans-serif;

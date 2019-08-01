@@ -13,6 +13,7 @@ import './CSS/Dashboard.scss';
 import StatusLabel from '../common/components/StatusLabel';
 import SideMenu from './components/SideMenu';
 import InboxMessages from './components/InboxMessages';
+import OutboxMessages from './components/SentMessages';
 
 const Dashboard = () => (
 
@@ -26,6 +27,7 @@ const Dashboard = () => (
           <Router>
             <Switch>
               <Route path="/dashboard/inbox" exact component={InboxMessages} />
+              <Route path="/dashboard/sent" exact component={OutboxMessages} />
               <Route path="/dashboard/send" exact component={StatusLabel} />
             </Switch>
           </Router>
