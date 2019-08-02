@@ -12,7 +12,7 @@ import '../CSS/Auth.scss';
 import signupUser from '../Redux/actions/signupAction';
 import StatusLabel from '../../common/components/StatusLabel';
 
-class Signup extends React.Component {
+export class Signup extends React.Component {
   constructor (props){
     super(props);
     this.state = {

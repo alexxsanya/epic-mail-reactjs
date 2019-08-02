@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Signup Component should match the snapshot 1`] = `
+<div
+  className="signup-component"
+>
+  <h2
+    className="section-title"
+  >
+    Create Account
+  </h2>
+  <ForwardRef
+    className="status-section"
+    noGutters={false}
+  >
+    <Col
+      sm={12}
+    />
+  </ForwardRef>
+  <Form
+    inline={false}
+    onSubmit={[Function]}
+  >
+    <FormGroup
+      controlId="formBasicFirstname"
+    >
+      <FormControl
+        name="firstname"
+        onChange={[Function]}
+        placeholder="Enter firstname"
+        required={true}
+        type="text"
+        value=""
+      />
+    </FormGroup>
+    <FormGroup
+      controlId="formBasicLastname"
+    >
+      <FormControl
+        name="lastname"
+        onChange={[Function]}
+        placeholder="Enter lastname"
+        required={true}
+        type="text"
+        value=""
+      />
+    </FormGroup>
+    <InputGroupPrepend
+      className="username_section"
+    >
+      <FormControl
+        className="username_input"
+        name="username"
+        onChange={[Function]}
+        placeholder="Enter username"
+        required={true}
+        type="text"
+        value=""
+      />
+      <InputGroupText
+        id="inputGroupPrepend"
+      >
+        @epicmail.com
+      </InputGroupText>
+    </InputGroupPrepend>
+    <FormGroup
+      controlId="formBasicTitle"
+    >
+      <FormControl
+        name="password"
+        onChange={[Function]}
+        placeholder="Enter password"
+        required={true}
+        type="password"
+        value=""
+      />
+    </FormGroup>
+    <ForwardRef
+      noGutters={false}
+    >
+      <Col
+        className="call-for-action"
+        sm={12}
+      >
+        <Component
+          color="#3379f5"
+          component="div"
+          loaded={true}
+          loadedClassName="loadedContent"
+          parentClassName="loader"
+        >
+          <Button
+            active={false}
+            disabled={false}
+            id="submitForm"
+            type="submit"
+            variant="primary"
+          >
+            Create Account
+          </Button>
+        </Component>
+      </Col>
+    </ForwardRef>
+    <ForwardRef
+      noGutters={false}
+    >
+      <Col
+        className="label-action"
+        sm={12}
+      >
+        <span>
+           You have an account, click 
+          <a
+            href="/login"
+          >
+            here
+          </a>
+           to login
+        </span>
+      </Col>
+    </ForwardRef>
+  </Form>
+</div>
+`;

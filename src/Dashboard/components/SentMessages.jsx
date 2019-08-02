@@ -8,7 +8,7 @@ import StatusLabel from '../../common/components/StatusLabel';
 import '../CSS/InboxMessages.scss';
 import fetchtOutboxMessages from '../Redux/actions/SentMessagesAction';
 
-class SentMessages extends React.Component {
+export class SentMessages extends React.Component {
   componentWillMount() {
     const { fetchtOutboxMessages } = this.props;
     fetchtOutboxMessages();
@@ -16,7 +16,7 @@ class SentMessages extends React.Component {
 
   render() {
     const { messages, sentFetched } = this.props;
-    console.log(messages);
+
     return (
       <div className="outbox-messages">
         <h2 className="section-title">Sent Messages</h2>

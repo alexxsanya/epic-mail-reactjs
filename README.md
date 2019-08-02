@@ -1,5 +1,7 @@
 # EPIC-MAIL-REACTJS
 
+[![Build Status](https://travis-ci.org/alexxsanya/EPIC-MAIL-REACTJS.svg?branch=develop)](https://travis-ci.org/alexxsanya/EPIC-MAIL-REACTJS)[![Coverage Status](https://coveralls.io/repos/github/alexxsanya/EPIC-MAIL-REACTJS/badge.svg?branch=develop)](https://coveralls.io/github/alexxsanya/EPIC-MAIL-REACTJS?branch=develop)
+
 ## Project Overview
 
 EPICMAIL is an online system which enables you to exchange messages/information over the internet

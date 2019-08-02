@@ -12,7 +12,7 @@ export const loginFail = error => ({
   },
 });
 
-const loginUser = userData => (dispatch) => {
+export const loginUser = userData => (dispatch) => {
   dispatch(loginStarted());
   const API = `${API_URL}auth/login`;
   return axios.post(

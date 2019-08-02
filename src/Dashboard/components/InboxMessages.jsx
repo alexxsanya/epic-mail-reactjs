@@ -8,7 +8,7 @@ import StatusLabel from '../../common/components/StatusLabel';
 import '../CSS/InboxMessages.scss';
 import fetchInboxMessages from '../Redux/actions/InboxMessagesAction';
 
-class InboxMessages extends React.Component {
+export class InboxMessages extends React.Component {
   componentWillMount() {
     const { fetchInboxMessages } = this.props;
     fetchInboxMessages();
@@ -59,7 +59,7 @@ InboxMessages.propTypes = {
 };
 
 export const mapStateToProps = state => ({
-  isLoggingIn: state.inboxReducer.isFetching,
+  isFetching: state.inboxReducer.isFetching,
   errorOccured: state.inboxReducer.error,
   inboxFetched: state.inboxReducer.status,
   messages: state.inboxReducer.items,
