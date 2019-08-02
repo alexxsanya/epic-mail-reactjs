@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SentMessages Component should match the snapshot 1`] = `
+<div
+  className="outbox-messages"
+>
+  <h2
+    className="section-title"
+  >
+    Sent Messages
+  </h2>
+  <StatusLabel
+    message="Oops"
+    tip="You currently haven't sent anyone a message"
+    variant="warning"
+  />
+</div>
+`;

@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login Component should match the snapshot 1`] = `
+<div
+  className="login-component"
+>
+  <h2
+    className="section-title"
+  >
+    Login Here
+  </h2>
+  <ForwardRef
+    className="status-section"
+    noGutters={false}
+  >
+    <Col
+      sm={12}
+    />
+  </ForwardRef>
+  <Form
+    inline={false}
+    onSubmit={[Function]}
+  >
+    <FormGroup
+      controlId="formBasicTitle"
+    >
+      <FormControl
+        name="email"
+        onChange={[Function]}
+        placeholder="Enter your email"
+        required={true}
+        type="email"
+        value=""
+      />
+    </FormGroup>
+    <FormGroup
+      controlId="formBasicTitle"
+    >
+      <FormControl
+        name="password"
+        onChange={[Function]}
+        placeholder="Enter your password"
+        required={true}
+        type="password"
+        value=""
+      />
+    </FormGroup>
+    <ForwardRef
+      noGutters={false}
+    >
+      <Col
+        className="call-for-action"
+        sm={12}
+      >
+        <Component
+          color="#3379f5"
+          component="div"
+          loaded={true}
+          loadedClassName="loadedContent"
+          parentClassName="loader"
+        >
+          <Button
+            active={false}
+            disabled={false}
+            id="submitForm"
+            type="submit"
+            variant="primary"
+          >
+            Login
+          </Button>
+        </Component>
+      </Col>
+    </ForwardRef>
+    <ForwardRef
+      noGutters={false}
+    >
+      <Col
+        className="label-action"
+        sm={12}
+      >
+        <span>
+          Create an account, click 
+          <a
+            href="/signup"
+          >
+            here
+          </a>
+           to signup
+        </span>
+      </Col>
+    </ForwardRef>
+  </Form>
+</div>
+`;

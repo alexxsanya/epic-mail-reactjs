@@ -22,7 +22,7 @@ const SignupReducer = (state = initialState, action) => {
         item: action.payload,
         status: true,
         isSigningUp: false,
-        message: 'Logged in',
+        message: 'Signed up',
       };
     case types.SIGNUP_STARTED:
       return {

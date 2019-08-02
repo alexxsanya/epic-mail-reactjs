@@ -11,7 +11,7 @@ import '../CSS/Auth.scss';
 import loginUser from '../Redux/actions/loginAction';
 import StatusLabel from '../../common/components/StatusLabel';
 
-class Login extends React.Component {
+export class Login extends React.Component {
   constructor (props){
     super(props);
     this.state = {
