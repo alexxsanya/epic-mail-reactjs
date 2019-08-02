@@ -14,7 +14,7 @@ You will need the following software running on your machine to get started
 
 * Reactjs - ( [learn about reactjs](https://reactjs.org) )
 * node ([download node](https://nodejs.org/))
-* npm ([when you install node, npm is also installed pip](https://docs.npmjs.com/cli/install))
+* npm ([when you install node, npm is also installed](https://docs.npmjs.com/cli/install))
 
 
 ### Project Setup
