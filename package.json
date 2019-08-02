@@ -8,7 +8,7 @@
     "start": "webpack-dev-server --open --mode development",
     "lint": "eslint src",
     "test": "jest",
-    "test:coverage": "jest --env=jsdom --coverage --no-cache --coverageDirectory=./test-reports/",
+    "test:coverage": "jest --env=jsdom --coverage --no-cache --coverage Directory=./test-reports/",
     "lint:fix": "eslint --fix src"
   },
   "repository": {
@@ -56,6 +56,7 @@
     "express": "^4.17.1",
     "file-loader": "^4.1.0",
     "jest": "^24.8.0",
+    "jest-config": "^24.8.0",
     "moxios": "^0.4.0",
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
