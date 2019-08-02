@@ -34,7 +34,7 @@ exports[`Login Component should match the snapshot 1`] = `
       />
     </FormGroup>
     <FormGroup
-      controlId="formBasicTitle"
+      controlId="formBasicPass"
     >
       <FormControl
         name="password"

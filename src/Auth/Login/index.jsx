@@ -104,7 +104,7 @@ export class Login extends React.Component {
               onChange={this.handleChange}
             />
           </Form.Group>
-          <Form.Group controlId="formBasicTitle">
+          <Form.Group controlId="formBasicPass">
             <Form.Control
               type="password"
               required
